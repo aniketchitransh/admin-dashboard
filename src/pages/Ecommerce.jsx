@@ -1,5 +1,5 @@
 import React from 'react';
-// import { GoPrimitiveDot } from 'react-icons/go';
+import { FaDotCircle } from "react-icons/fa";
 import { BsCurrencyDollar } from 'react-icons/bs';
 
 import { Stacked, Pie, Button, SparkLine } from '../components';
@@ -56,8 +56,16 @@ const Ecommerce = () => {
                 </div>
             </div>
             <div className='flex gap-10 flex-wrap justify-center'>
-                <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg'>
-
+                <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg m-3 p-4 rounded-2xl md:w-780'>
+                    <div className='flex justify-between'>
+                        <p className='font-semibold text-xl'>Revenue Updates</p>
+                        <div className='felx items-center gap-4'>
+                            <p className=''>
+                                <span><FaDotCircle /></span>
+                                <span>Expence</span>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
