@@ -81,13 +81,25 @@ const Ecommerce = () => {
                                     Budget
                                 </p>
                             </div>
-                            <div>
+                            <div className='mt-8'>
                                 <p>
-                                    <span className='text-3xl font-semibold'>₹93,438</span>
+                                    <span className='text-3xl font-semibold'>₹48,438</span>
                                 </p>
                                 <p className='text-gray-500 mt-1'>
-                                    Budget
+                                    Expense
                                 </p>
+                            </div>
+
+                            <div className='mt-5'>
+                                <SparkLine
+                                    currentColor='blue'
+                                    id="line-sparkline"
+                                    type="Line"
+                                    height="80px"
+                                    width="250px"
+                                    data={SparklineAreaData}
+                                    color="blue"
+                                />
                             </div>
                         </div>
                     </div>
