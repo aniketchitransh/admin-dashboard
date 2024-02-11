@@ -3,7 +3,6 @@ import { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, Context
 
 import { ordersData, contextMenuItems, ordersGrid } from '../data/dummy';
 import { Header } from '../components';
-import { excelExport } from '@syncfusion/ej2/pivotview';
 
 const Orders = () => {
   return (
